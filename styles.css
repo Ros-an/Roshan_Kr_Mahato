@@ -24,9 +24,10 @@ table a {
 }
 .nav-item {
     width: 10%;
+    font-size: 1.4vw;
 }
 #home-text {
-    font-weight: 700;
+    font-weight: 550;
 }
 .nav-item a:hover {
     font-size: 1.5vw;
