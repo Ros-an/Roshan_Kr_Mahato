@@ -100,16 +100,17 @@ header img {
 
 .foot {
     background-color: #2f2e41;
-    padding: 3rem 1rem 4rem 1rem;
-    text-align: center;
+    padding: 3rem 1rem 3rem 1rem;
+    
     
 }
 .foot ul {
     list-style-type: none;
+    text-align: center;
 }
 .foot ul li {
     display: inline-block;
-    padding: 0 2rem;
+    padding: 0 25px;
     font-size: 16px;
 }
 .foot ul li a {
@@ -118,6 +119,7 @@ header img {
 }
 
 .foot p {
+    text-align: center;
     font-size: 10px;
     color: white;
     padding-top: 2rem;
