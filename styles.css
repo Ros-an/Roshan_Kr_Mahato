@@ -10,34 +10,40 @@ body {
 /*Navigation bar styling*/
 
 table img {
-    width: 5vw;
-    height: 5vw;
+    width: 80px;
+    height: 80px;
     margin-top: 4px;
 }
+
 #logo {
     padding: 0 0 0 2%;
     text-align: left;
 }
+
 table a {
     text-decoration: none;
     color: black;
 }
+
 .nav-item {
-    width: 10%;
-    font-size: 1.4vw;
+    padding-top: 10px;
+    width: 7rem;
     font-weight: 550;
 }
+
 #home-text {
-    color:white;
+    color: white;
 }
+
 .nav-item a:hover {
-    color:white;
+    color: white;
 }
 
 /*--------Header Section------*/
 header {
     text-align: center;
 }
+
 #intro {
     font-family: 'Great Vibes', cursive;
     font-size: 7vw;
@@ -45,11 +51,13 @@ header {
     margin: 0;
     padding-top: 5%;
 }
+
 header p {
     font-size: 2vw;
     margin-bottom: 5px;
     color: #2f2e41;
 }
+
 header img {
     width: 30vw;
     height: 30vw;
@@ -62,11 +70,29 @@ header img {
     max-width: 600px;
     margin: auto;
 }
+
 #tech {
     padding: 2rem;
 }
+
 #tech h1 {
     text-align: center;
     color: #2f2e41;
-    
+}
+
+.links {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.primary-link {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.secondary-link {
+    background-color: #b0ffb0;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
