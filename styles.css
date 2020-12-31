@@ -25,13 +25,13 @@ table a {
 .nav-item {
     width: 10%;
     font-size: 1.4vw;
+    font-weight: 550;
 }
 #home-text {
-    font-weight: 550;
+    color:white;
 }
 .nav-item a:hover {
-    font-size: 1.5vw;
-    font-weight: 550;
+    color:white;
 }
 
 /*--------Header Section------*/
@@ -53,4 +53,20 @@ header p {
 header img {
     width: 30vw;
     height: 30vw;
+    margin-bottom: 5%;
+}
+
+/*--------Section style------*/
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+#tech {
+    padding: 2rem;
+}
+#tech h1 {
+    text-align: center;
+    color: #2f2e41;
+    
 }
