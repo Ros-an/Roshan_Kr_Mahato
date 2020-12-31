@@ -30,7 +30,9 @@ table a {
     width: 6rem;
     font-weight: 550;
 }
-
+.home {
+    padding-right: 0%;
+}
 #home-text {
     color: white;
 }
