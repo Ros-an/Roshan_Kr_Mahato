@@ -111,6 +111,7 @@ header img {
 .foot ul li {
     display: inline-block;
     padding: 0 25px;
+    font-weight: bold;
 }
 .foot ul li a {
     text-decoration: none;
