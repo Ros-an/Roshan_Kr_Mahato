@@ -9,7 +9,7 @@ body {
 
 /*Navigation bar styling*/
 
-table img {
+nav table img {
     width: 75px;
     height: 75px;
     margin-top: 4px;
@@ -20,7 +20,7 @@ table img {
     text-align: left;
 }
 
-table a {
+nav table a {
     text-decoration: none;
     color: black;
 }
@@ -104,7 +104,7 @@ header img {
     
     
 }
-.foot ul {
+/*.foot ul {
     list-style-type: none;
     text-align: center;
 }
@@ -117,7 +117,16 @@ header img {
     text-decoration: none;
     color: white;
 }
-
+*/
+.foot table {
+    margin: auto;
+}
+.foot table tr td a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem ;
+}
 .foot p {
     text-align: center;
     font-size: 10px;
