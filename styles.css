@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
 }
+/*Navigation bar styling*/
 table img {
     width: 5rem;
     height: 5rem;
@@ -27,19 +30,3 @@ table a {
     font-size: 18px;
     font-weight: 550;
 }
-
-/*#logo {
-    display: inline-block;
-}
-.nav li {
-    display: inline-block;
-    margin: 0 8% 0 0;
-}
-
-
-
-
-.nav a:hover {
-    font-weight: 500;
-    font-size: 20px;
-}*/
