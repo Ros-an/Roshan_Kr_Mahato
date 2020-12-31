@@ -9,6 +9,10 @@ body {
 
 /*Navigation bar styling*/
 
+nav table{
+    position: fixed;
+    width: 100%;
+}
 nav table img {
     width: 75px;
     height: 75px;
@@ -17,7 +21,7 @@ nav table img {
 
 #logo {
     padding: 0 0 0 20px;
-    text-align: left;
+    
 }
 
 nav table a {
@@ -48,7 +52,7 @@ header {
     font-size: 7vw;
     font-weight: lighter;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 8rem;
 }
 
 header p {
