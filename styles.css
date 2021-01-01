@@ -49,17 +49,18 @@ header {
     padding-bottom: 2rem;
 }
 
-#intro {
+header h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 7vw;
+    font-size: calc(2rem + 6vw);
     
     font-weight: lighter;
     margin: 0;
-    padding-top: 8rem;
+    padding-top: 7rem;
 }
 
-header #developer {
-    font-size: 2vw;
+header h2 {
+    font-size: calc(0.5rem + 2vw);
+    font-weight: lighter;
     margin-bottom: 5px;
     color: #2f2e41;
 }
@@ -67,7 +68,6 @@ header #developer {
 header img {
     width: 40vw;
     height: 40vw;
-    margin-bottom: 5%;
 }
 
 /*--------Section style------*/
