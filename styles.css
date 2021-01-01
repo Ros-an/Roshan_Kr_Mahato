@@ -9,8 +9,10 @@ body {
 
 /*Navigation bar styling*/
 
-.nav-table{
+nav table{
     position: fixed;
+    top: 0px;
+    bottom: 0px;
 }
 nav table img {
     width: 75px;
@@ -142,11 +144,18 @@ header img {
 }
 
 /*-------Project section-----*/
-#code {
+#sub-part {
     text-align: center;
 }
 
-#code div h1 {
-    /*padding-top: 15rem;*/
+#sub-part div h1 {
+    padding: 10rem 0 5rem 0;
     color: #2f2e41;
+    font-size: 2em;
+}
+/* css-tricks.com/adding-stroke-to-web-text */
+#sub-part div h1 span {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2f2e41;
 }
