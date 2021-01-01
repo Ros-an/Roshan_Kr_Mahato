@@ -167,14 +167,19 @@ header img {
 .article table .primary-link {
     border: 1px solid #2f2e41;
     color: #2f2e41;
+    font-size: 15px;
 }
 
 .article table .secondary-link {
     border: 1px solid #b0ffb0;
+    font-size: 15px;
 }
 .article .sub-article {
     padding: 3rem 3rem 4rem 3rem;
 }
 .article table td {
     display: block;
+}
+.article table p {
+    margin-bottom: 2rem;
 }
