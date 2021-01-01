@@ -51,24 +51,23 @@ header {
 
 #intro {
     font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
+    font-size: 7vw;
+    
     font-weight: lighter;
     margin: 0;
     padding-top: 8rem;
 }
 
-header p {
-    font-size: 1.5rem;
+header #developer {
+    font-size: 2vw;
     margin-bottom: 5px;
     color: #2f2e41;
 }
 
 header img {
-    max-width: 80%;
-    max-height: 80%;
-    height: 30rem;
-    display: block;
-    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    margin-bottom: 5%;
 }
 
 /*--------Section style------*/
