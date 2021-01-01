@@ -9,9 +9,8 @@ body {
 
 /*Navigation bar styling*/
 
-nav table{
+.nav-table{
     position: fixed;
-    width: 100%;
 }
 nav table img {
     width: 75px;
@@ -19,7 +18,7 @@ nav table img {
     margin-top: 4px;
 }
 
-#logo {
+.logo {
     padding: 0 0 0 20px;
     
 }
@@ -140,4 +139,14 @@ header img {
 
 .foot p span {
     text-decoration: underline;
+}
+
+/*-------Project section-----*/
+#code {
+    text-align: center;
+}
+
+#code div h1 {
+    /*padding-top: 15rem;*/
+    color: #2f2e41;
 }
