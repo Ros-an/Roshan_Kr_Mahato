@@ -159,3 +159,20 @@ header img {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #2f2e41;
 }
+
+.article table{
+    margin: auto;
+    max-width: 600px;    
+}
+.article table .primary-link {
+    border: 1px solid #2f2e41;
+    color: #2f2e41;
+    margin-left: 1rem;
+}
+
+.article .sub-article {
+    padding: 3rem 3rem 4rem 3rem;
+}
+.article table td {
+    display: block;
+}
