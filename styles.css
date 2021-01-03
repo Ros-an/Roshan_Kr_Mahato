@@ -111,24 +111,8 @@ header img {
 .foot {
     background-color: #2f2e41;
     padding: 3rem 1rem;
-
-
 }
 
-/*.foot ul {
-    list-style-type: none;
-    text-align: center;
-}
-.foot ul li {
-    display: inline-block;
-    padding: 0 25px;
-    font-weight: bold;
-}
-.foot ul li a {
-    text-decoration: none;
-    color: white;
-}
-*/
 .foot table {
     margin: auto;
 }
@@ -152,12 +136,13 @@ header img {
 }
 
 /*-------Project section-----*/
+
 #sub-part {
     text-align: center;
 }
 
 #sub-part div h1 {
-    padding: 10rem 0 5rem 0;
+    padding: 11rem 0 5rem 0;
     color: #2f2e41;
     font-size: 2em;
 }
