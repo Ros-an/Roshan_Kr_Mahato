@@ -9,11 +9,12 @@ body {
 
 /*Navigation bar styling*/
 
-nav table{
+nav table {
     position: fixed;
     top: 0px;
     bottom: 0px;
 }
+
 nav table img {
     width: 75px;
     height: 75px;
@@ -22,7 +23,7 @@ nav table img {
 
 .logo {
     padding: 0 0 0 20px;
-    
+
 }
 
 nav table a {
@@ -35,6 +36,7 @@ nav table a {
     width: 6rem;
     font-weight: 550;
 }
+
 #home-text {
     color: white;
 }
@@ -52,7 +54,6 @@ header {
 header h1 {
     font-family: 'Great Vibes', cursive;
     font-size: calc(2rem + 6vw);
-    
     font-weight: lighter;
     margin: 0;
     padding-top: 7rem;
@@ -90,12 +91,14 @@ header img {
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .primary-link {
     background-color: white;
     color: black;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
+
 .secondary-link {
     background-color: #b0ffb0;
     color: black;
@@ -108,9 +111,10 @@ header img {
 .foot {
     background-color: #2f2e41;
     padding: 3rem 1rem;
-    
-    
+
+
 }
+
 /*.foot ul {
     list-style-type: none;
     text-align: center;
@@ -128,12 +132,14 @@ header img {
 .foot table {
     margin: auto;
 }
+
 .foot table tr td a {
     color: white;
     font-weight: bold;
     font-size: 16px;
-    padding: 0.5rem 1.5rem ;
+    padding: 0.5rem 1.5rem;
 }
+
 .foot p {
     text-align: center;
     font-size: 10px;
@@ -155,6 +161,7 @@ header img {
     color: #2f2e41;
     font-size: 2em;
 }
+
 /* css-tricks.com/adding-stroke-to-web-text */
 #sub-part div h1 span {
     color: white;
@@ -162,10 +169,11 @@ header img {
     -webkit-text-stroke-color: #2f2e41;
 }
 
-.article table{
+.article table {
     margin: auto;
-        
+
 }
+
 .article table .primary-link {
     border: 1px solid #2f2e41;
     color: #2f2e41;
@@ -176,12 +184,15 @@ header img {
     border: 1px solid #b0ffb0;
     font-size: 15px;
 }
+
 .article .sub-article {
     padding: 3rem 3rem 4rem 3rem;
 }
+
 .article table td {
     display: block;
 }
+
 .article table p {
     margin-bottom: 2rem;
 }
