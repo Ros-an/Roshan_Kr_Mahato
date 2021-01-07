@@ -172,6 +172,7 @@ header img {
 
 .article .sub-article {
     padding: 3rem 3rem 4rem 3rem;
+    max-width: 600px;;
 }
 
 .article table td {
