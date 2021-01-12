@@ -2,14 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+:root {
+    --primary: #b0ffb0;
+    --secondary: #2f2e41;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0%;
+    margin: 0%;/*because by default the body of a page will have some margin.*/
 }
 
 /*Navigation bar styling*/
 
 nav table {
+    width: 100%;
+    background-color: #b0ffb0;
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -23,7 +30,6 @@ nav table img {
 
 .logo {
     padding: 0 0 0 20px;
-
 }
 
 nav table a {
@@ -72,7 +78,6 @@ header img {
 }
 
 /*--------Section style------*/
-
 .container {
     max-width: 600px;
     margin: auto;
@@ -107,7 +112,6 @@ header img {
 }
 
 /*------Footer section------*/
-
 .foot {
     background-color: #2f2e41;
     padding: 3rem 1rem;
@@ -136,7 +140,6 @@ header img {
 }
 
 /*-------Project section-----*/
-
 #sub-part {
     text-align: center;
 }
@@ -172,7 +175,8 @@ header img {
 
 .article .sub-article {
     padding: 3rem 3rem 4rem 3rem;
-    max-width: 600px;;
+    max-width: 600px;
+    ;
 }
 
 .article table td {
@@ -181,4 +185,52 @@ header img {
 
 .article table p {
     margin-bottom: 2rem;
+}
+
+/*-----------Blogs page-------------*/
+main {
+    max-width: 600px;
+    margin: auto;
+}
+.blog-heading {
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--primary);
+}
+.blog-heading h1 {
+    margin: auto;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blog-main {
+    width: 100%;
+    margin: auto;
+}
+
+.blog-main img {
+    width: 100%;
+}
+
+#back-btn a{
+    background-color: var(--secondary);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+.blog-para {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.blog-para h2 {
+    padding-top: 1.5rem;
+    font-weight: 100;
+    font-size: 2rem;
 }
