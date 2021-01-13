@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
     --primary: #b0ffb0;
@@ -9,7 +10,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0%;/*because by default the body of a page will have some margin.*/
+    margin: 0%;
+    /*because by default the body of a page will have some margin.*/
 }
 
 /*Navigation bar styling*/
@@ -192,11 +194,13 @@ main {
     max-width: 600px;
     margin: auto;
 }
+
 .blog-heading {
     padding: 1rem;
     width: 100%;
     background-color: var(--primary);
 }
+
 .blog-heading h1 {
     margin: auto;
     font-weight: 100;
@@ -212,7 +216,7 @@ main {
     width: 100%;
 }
 
-#back-btn a{
+#back-btn a {
     background-color: var(--secondary);
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -224,7 +228,6 @@ main {
 }
 
 .blog-para {
-    margin-top: 50px;
     margin-bottom: 100px;
     width: 100%;
     padding: 1rem;
